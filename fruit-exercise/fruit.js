@@ -106,7 +106,7 @@ function updateZJ() {
 
 function delfruit() {
     if (event && event.srcElement && event.srcElement.tagName == "TD") {
-        if (window.confirm("是否要刪除")) {
+        if (window.confirm("Sure you want to delete?")) {
             var td = event.srcElement;
             var tr = td.parentElement;
             var table = document.getElementById("table");
